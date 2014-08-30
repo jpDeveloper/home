@@ -1,22 +1,157 @@
-body {
-    background: #fafafa;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+body{
+  background-color: #fafafa;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  color: #363636;
 }
 
-.hero-unit {
-    margin: 50px auto 0 auto;
-    width: 300px;
-    font-size: 18px;
-    font-weight: 200;
-    line-height: 30px;
-    background-color: #eee;
-    border-radius: 6px;
-    padding: 60px;
+hr{
+  border-top: 1px solid rgba(0,0,0,0.5);
 }
 
-.hero-unit h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
+.raleway{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
+
+.ubuntu{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+}
+
+/*
+ * Masthead for nav
+ */
+
+.blog-masthead {
+  background-color: #ffc38d;
+}
+
+/* Nav links */
+.blog-nav-item {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  font-weight: 400;
+  color: #fafafa;
+  font-size: 1.3em;
+}
+
+.blog-nav-item:hover,
+.blog-nav-item:focus {
+  color: #fafafa;
+  text-decoration: none;
+}
+
+/* Active state gets a caret at the bottom */
+.blog-nav .active {
+  color: #fafafa;
+}
+.blog-nav .active:after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+  vertical-align: middle;
+  content: " ";
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid;
+  border-left: 5px solid transparent;
+}
+
+/*Custom*/
+
+.jpResponsive{
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  margin: auto;
+}
+.jumbotron{
+  background-color: #fafafa;
+  padding-bottom: 0;
+}
+
+#jesus {
+  color: #363636;
+}
+
+#jesus h2 {
+  border: 2px solid #f49662;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 15px;
+  color: #f49662;
+  font-weight: 300;
+  font-size: 26px;
+}
+
+#jpBox1 img{
+  border-radius: 6px;
+}
+
+#smBox {
+  margin: 0 0 5% 0;
+}
+
+#smBox a {
+  margin-left: 15px;
+  margin-right: 15px;
+  color: #87a9d7;
+}
+
+#smBox a:hover {
+  color: #ffc38d;
+}
+
+.panel-heading{
+  padding: 10% 15px;
+}
+
+ul.aboutBox {
+  list-style: none;
+  padding-left: 0;
+}
+
+/*Accordion*/
+
+.accordion-toggle:hover, .accordion-toggle:active{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.panel-title > a{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/*Footer*/
+
+.footer-box {
+  background-color: #647bb1;
+  padding: 1%;
+}
+.copyright{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  color: #fafafa;
+}
+
+footer p, footer i{
+  color: #fafafa;
+}
+/*Bootstrap Media Queries*/
+
+@media screen and (min-width:1200px){}
+
+@media screen and (min-width:992px){}
+
+@media screen and (min-width:768px){}
+
+@media screen and (max-width:767px){
+  .blog-nav-item{
+    font-size: 1em;
+  }
+
 }

@@ -3,7 +3,11 @@
 describe('Controller: MainCtrl', function () {
 
   // load the controller's module
+<<<<<<< HEAD
   beforeEach(module('newJApp'));
+=======
+  beforeEach(module('newJpApp'));
+>>>>>>> 147faa9bb6e0aa46e4ba842aac351d313d761137
 
   var MainCtrl,
     scope;
