@@ -29,10 +29,7 @@
     "expect": false,
     "inject": false,
     "it": false,
-<<<<<<< HEAD
-=======
     "jasmine": false,
->>>>>>> 147faa9bb6e0aa46e4ba842aac351d313d761137
     "spyOn": false
   }
 }
