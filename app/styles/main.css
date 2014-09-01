@@ -9,6 +9,13 @@ hr{
   border-top: 1px solid rgba(0,0,0,0.5);
 }
 
+a, button {
+    outline: none !important;
+}
+a img{
+    outline: none !important;
+}
+
 .raleway{
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
@@ -74,18 +81,32 @@ hr{
   text-align: justify;
 }
 
+
+.jp-image{
+  margin-bottom: 3%;
+}
+
+.jp-image img{
+  border-radius: 50%;
+}
+
 .jumbotron{
   background-color: #fafafa;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
+  margin-bottom: 3%;
+}
+
+.jumbotron h1{
+  margin-bottom: 0;
 }
 
 #jesus {
   color: #363636;
 }
 
-#jesus h2 {
+#jesus-developer h2 {
   border: 2px solid #f49662;
   border-radius: 10px;
   display: inline-block;
@@ -93,6 +114,11 @@ hr{
   color: #f49662;
   font-weight: 300;
   font-size: 26px;
+  margin-top: 0;
+  margin-bottom: 3%;
+}
+.jp-container{
+  display: inline-block;
 }
 
 #jpBox1 img{
@@ -114,13 +140,18 @@ hr{
 }
 
 .panel-heading{
-  padding: 10% 15px;
+  padding: 2% 1.5%;
 }
 
 ul.aboutBox {
   list-style: none;
   padding-left: 0;
 }
+
+.works{
+
+}
+
 
 /*Accordion*/
 
