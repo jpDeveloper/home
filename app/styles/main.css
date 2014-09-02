@@ -181,9 +181,9 @@ ul.aboutBox {
   height: 100%;
 }
 
-.video img, 
-.video iframe, 
-.video object, 
+.video img,
+.video iframe,
+.video object,
 .video embed {
         max-width: 100%;
 }
