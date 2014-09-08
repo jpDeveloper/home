@@ -83,11 +83,21 @@ a img{
 
 
 .jp-image{
-  margin-bottom: 3%;
+  width: 300px;
+  height: 300px;
+  background-image: url('../images/jesus-parlange-home.png');
+  background-repeat: no-repeat;
+  margin: 0 auto 3%;
+  border-radius: 50%;
+  transition: all linear 1s;
 }
 
 .jp-image img{
   border-radius: 50%;
+}
+
+.colour-photo{
+  background-image: url('../images/jesus-parlange-home-colour.png');
 }
 
 .jumbotron{
@@ -149,7 +159,40 @@ ul.aboutBox {
 }
 
 .works{
+  text-align: center;
+  margin: 10% 0;
+}
 
+/*.works h1{
+  display: inline-block;
+  background-color: #f49662;
+  border-radius: 12px;
+  padding: 2% 4%;
+  margin: 0;
+  color: #fff;
+}*/
+
+.latest-box{
+  display: inline-block;
+  background-color: #f49662;
+  border-radius: 12px;
+  padding: 2% 4%;
+  margin: 0;
+  color: #fff;
+}
+
+.samples{
+  margin-bottom: 15%;
+  border-bottom: 3px dashed #999;
+  padding-bottom: 2%;
+}
+
+.ipad-img{
+  margin-bottom: 2%;
+}
+
+.noborder{
+  border: none !important;
 }
 
 
@@ -196,7 +239,7 @@ ul.aboutBox {
 /*Footer*/
 
 .footer-box {
-  background-color: #647bb1;
+  background-color: #54b6db;
   padding: 1%;
 }
 .copyright{
