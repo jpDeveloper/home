@@ -28,15 +28,15 @@ app.directive('elements', function($timeout){
 	};
 });
 
-app.directive('wrapOwlcarousel', function () {  
-    return {  
-        restrict: 'E',  
-        link: function (scope, element, attrs) {  
-            var options = scope.$eval($(element).attr('data-options'));  
-            $(element).owlCarousel(options);  
-        }  
-    };  
-});  
+app.directive('wrapOwlcarousel', function () {
+    return {
+        restrict: 'E',
+        link: function (scope, element, attrs) {
+            var options = scope.$eval($(element).attr('data-options'));
+            $(element).owlCarousel(options);
+        }
+    };
+});
 
 app.directive('latestWorks', function(){
 	return{
@@ -44,7 +44,7 @@ app.directive('latestWorks', function(){
 		link: function(scope, element){
 			var colours = [
 				'#6c88b9','#72d2a5','#f88890', '#f49662'
-			
+
 			];
 
 			var boxColor = element.find('.latest-box');
@@ -55,7 +55,6 @@ app.directive('latestWorks', function(){
 			});
 
 			element.on('click', function(){
-				console.log('click');
 
 				boxColor.css('background-color', colours[number]);
 
@@ -64,7 +63,6 @@ app.directive('latestWorks', function(){
 				if(number > 3){
 						number = 0;
 				}
-				
 
 				console.log(number);
 
@@ -72,7 +70,7 @@ app.directive('latestWorks', function(){
 
 		}
 	}
-});	
+});
 
 app.directive('jesusParlange', function($timeout, $interval){
 	return{
