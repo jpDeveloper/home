@@ -1,5 +1,29 @@
 'use strict';
 
+app.directive('scrolltotop', function($window){
+	return{
+		restrict: 'A',
+		link: function (scope, element){
+			// $($window).scroll(function () {
+		 //        if ($(this).scrollTop() > 300) {
+		 //            $('.back-top').fadeIn();
+		 //        } else {
+		 //            $('.back-top').fadeOut();
+		 //        }
+		 //    });
+
+		    // // scroll body to 0px on click
+		    // $('.back-top').click(function () {
+		    //     $('body,html').animate({
+		    //         scrollTop: 0
+		    //     }, 1600);
+		    //     return false;
+		    // });
+
+		}
+	}
+});
+
 app.directive('elements', function($timeout){
 	return{
 		restrict: 'A',
@@ -43,7 +67,7 @@ app.directive('latestWorks', function(){
 		restrict: 'A',
 		link: function(scope, element){
 			var colours = [
-				'#6c88b9','#72d2a5','#f88890', '#f49662'
+				'#88bec1','#a7c817','#f1655f', '#f2a057'
 
 			];
 
@@ -76,6 +100,9 @@ app.directive('jesusParlange', function($timeout, $interval){
 	return{
 		restrict: 'A',
 		link: function(scope, element){
+			element.on('mouseover', function(){
+				element.css('cursor', 'pointer');
+			});
 
 			$interval(function(){
 				element.toggleClass('colour-photo');

@@ -6,7 +6,9 @@ var app = angular
     'ngResource',
     'ngSanitize',
     'ngRoute',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'ngDialog',
+    'angularSmoothscroll'
   ]);
   
 app.config(function ($routeProvider) {
@@ -19,3 +21,5 @@ app.config(function ($routeProvider) {
       redirectTo: '/'
     });
 });
+
+

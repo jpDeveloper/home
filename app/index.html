@@ -12,6 +12,8 @@
     <!-- build:css styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/ngDialog/css/ngDialog.css" />
+    <link rel="stylesheet" href="bower_components/ngDialog/css/ngDialog-theme-default.css" />
     <!-- endbower -->
 
     <!-- Google Fonts -->
@@ -22,13 +24,15 @@
     <!-- endbuild -->
     <!-- build:css({.tmp,app}) styles/main.css -->
     <!-- Owl Carousel -->
-     <link href="bower_components/owl.carousel/dist/assets/owl.carousel.css" rel="stylesheet"/>
-     <link href="bower_components/owl.carousel/dist/assets/owl.theme.default.css" rel="stylesheet"/>
+    <link href="bower_components/owl.carousel/dist/assets/owl.carousel.css" rel="stylesheet"/>
+    <link href="bower_components/owl.carousel/dist/assets/owl.theme.default.css" rel="stylesheet"/>
+    <!-- ngDialog -->
+    <link href="bower_components/ngDialog/css/ngDialog-theme-plain.css" rel="stylesheet"/>
 
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="newJpApp">
+  <body ng-app="newJpApp" scrolltotop>
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -61,6 +65,8 @@
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/ngDialog/js/ngDialog.js"></script>
+    <script src="bower_components/angular-smoothscroll/dist/scripts/bb15da28.scripts.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -70,13 +76,15 @@
         <!-- endbuild -->
 
     <!-- Added Controllers -->
-    <script src="scripts/controllers/accordion.js"></script>
     <script src="scripts/directives.js"></script>
 
     <!-- Plug-Ins -->
     <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
     <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
     <script src="bower_components/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="bower_components/ngDialog/js/ngDialog.min.js"></script>
+    <script src="bower_components/angular-smoothscroll/dist/scripts/bb15da28.scripts.js"></script>
+    
 
 </body>
 </html>

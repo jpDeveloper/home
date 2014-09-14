@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="263px"
+	 height="263px" viewBox="0 0 263 263" enable-background="new 0 0 263 263" xml:space="preserve">
+<g id="Layer_1" display="none">
+	<rect display="inline" fill="#A6C839" width="263" height="263"/>
+	<path display="inline" fill="#F9E49F" d="M197.815,146.993c0-8.314-5.945-15.91-15.751-21.785
+		c5.427-4.546,8.604-9.863,8.604-15.564c0-9.85-9.343-18.563-23.725-24.053c6.427-4,10.285-9.111,10.285-14.685
+		c0-12.841-20.477-23.25-45.723-23.25c-25.26,0-45.736,10.409-45.736,23.25c0,5.574,3.865,10.685,10.287,14.685
+		c-14.377,5.49-23.726,14.203-23.726,24.053c0,5.702,3.179,11.018,8.604,15.564c-9.805,5.875-15.75,13.471-15.75,21.785
+		c0,17.209,25.375,31.374,58.116,33.429v34.922h16.405v-34.915C172.453,178.367,197.815,164.202,197.815,146.993z"/>
+	<line display="inline" opacity="0.2" fill="#010101" x1="131.5" y1="263" x2="263" y2="263"/>
+	<rect x="131.5" display="inline" opacity="0.2" fill="#010101" width="131.5" height="263"/>
+	<polygon display="inline" opacity="0.2" fill="#010101" points="263,263 247.32,23.68 0,0 263,0 	"/>
+</g>
+<g id="Layer_2">
+	<path fill="#A1C4A7" d="M263,0"/>
+	<rect fill="#F26560" width="263" height="263"/>
+	<line fill="#FBAB1A" x1="263" y1="263" x2="263" y2="0"/>
+	<path fill="#BA906E" d="M263,263"/>
+	<polygon fill="#F9E49F" points="209.806,103.72 208.021,47.653 160.353,77.23 176.953,86.124 153.491,129.914 102.468,137.886 
+		53.194,204.152 68.241,215.344 112.94,155.231 165.614,147.007 193.484,94.978 	"/>
+	<rect x="131.5" opacity="0.2" fill="#010101" width="131.5" height="263"/>
+	<polygon opacity="0.2" fill="#010101" points="263,263 247.32,23.68 0,0 263,0 	"/>
+	<path opacity="0.1" fill="#010101" d="M263,0"/>
+	<path opacity="0.2" fill="#010101" d="M263,263"/>
+</g>
+</svg>
