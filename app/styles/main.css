@@ -103,6 +103,7 @@ a img{
   margin: 0 auto 3%;
   border-radius: 50%;
   transition: all linear 1s;
+  background-size: 100%;
 }
 
 .jp-image img{
@@ -127,6 +128,7 @@ a img{
 
 .jumbotron h1{
   margin-bottom: 0;
+  margin-top: 0;
   color: darksalmon;
 }
 
@@ -145,7 +147,7 @@ a img{
   color: #68c4af;
   /*#849fc8*/
   font-weight: 100;
-  font-size: 5em;
+  font-size: 2.7em;
   margin: 0;
 }
 .jp-container{
@@ -293,31 +295,39 @@ ul.aboutBox {
 /*Scroll to Top*/
 
 .scroll-icon{
-  width:25px;
-  height:25px;
-  background:#ff0000;
-  position:fixed;
-  bottom:68px;
-  right:5px;
-  display:none;
-  opacity:0.8
+  display: inline-block;
+  cursor: pointer;
 }
 
 .scroll-icon:hover{
-  text-decoration:none;
+  opacity: 0.5;
 }
 
+/*Contact Box*/
+
+.contact-box{
+  background-color: #68c4af;
+  padding: 3% 0;
+}
+
+.contact-box a{
+  font-size: 3em;
+  color: #fff;
+}
 
 /*Footer*/
 
 .footer-box {
   background-color: #333;
-  padding: 1%;
+  padding: 3%;
 }
 .copyright{
   font-family: 'Ubuntu', sans-serif;
-  font-weight: 500;
+  font-weight: 100;
   color: #fafafa;
+  font-size: 1.3em;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
 footer p, footer i{
@@ -325,21 +335,183 @@ footer p, footer i{
 }
 /*Bootstrap Media Queries*/
 
-@media screen and (min-width:1200px){}
+@media screen and (max-width:767px){
+  .jumbotron h1{
+    font-size: 65px;
+  }
 
-@media screen and (min-width:992px){}
+  #jesus-developer h2{
+    font-size: 2.2em;
+  }
+
+  .box-text{
+    margin-bottom: 5%;
+  }
+
+  #jesus-developer {
+    margin-bottom: 15%;
+  }
+
+  .aboutBox img{
+    width: 263px;
+    height: 263px;
+  }
+
+  .p-story{
+    padding: 0 5%;
+    font-size: 1em;
+  }
+
+  .ipad-img{
+    width: 21%;
+  }
+
+  .copyright{
+    font-size: 1em;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+  .jumbotron h1{
+    font-size: 60px;
+  }
+
+  #jesus-developer h2{
+    font-size: 1.9em;
+  }
+
+  .box-text{
+    margin-bottom: 5%;
+  }
+
+  #jesus-developer {
+    margin-bottom: 15%;
+  }
+
+  .aboutBox img{
+    width: 263px;
+    height: 263px;
+  }
+
+  .story-box{
+    padding: 19px 121px;
+    background-size: 100%;
+    font-size: 2em;
+  }
+
+  .latest-box{
+    padding: 19px 109px;
+    background-size: 100%;
+    font-size: 1.9em;
+  }
+
+  .p-story{
+    padding: 0 5%;
+    font-size: 0.9em;
+  }
+
+  .ipad-img{
+    width: 21%;
+  }
+
+  .copyright{
+    font-size: 1em;
+  }
+}
+
+/*iPhone Size Portrait*/
+@media screen and (max-width: 480px){
+  .jumbotron h1{
+    font-size: 39px;
+  }
+
+  #jesus-developer h2{
+    font-size: 1.4em;
+  }
+
+  .jp-image{
+    width: 263px;
+    height: 263px;
+  }
+
+  .mountains{
+    width: 20%;
+  }
+
+  .box-text{
+    margin-bottom: 5%;
+  }
+
+  #jesus-developer {
+    margin-bottom: 15%;
+  }
+
+  .aboutBox img{
+    width: 263px;
+    height: 263px;
+  }
+
+  .story-box{
+    padding: 11px 82px;
+    background-size: 100%;
+    font-size: 2em;
+  }
+
+  .latest-box{
+    padding: 14px 82px;
+    background-size: 100%;
+    font-size: 1.9em;
+  }
+
+  .p-story{
+    padding: 0 5%;
+    font-size: 0.8em;
+  }
+
+  .ipad-img{
+    width: 21%;
+  }
+
+  .copyright{
+    font-size: 0.9em;
+  }
+
+}
 
 @media screen and (min-width:768px){
   .navbar-toggle {
     display: block;
   }
-}
-
-@media screen and (max-width:767px){
-  .blog-nav-item{
-    font-size: 1em;
+  .jumbotron h1{
+    font-size: 70px;
   }
 
+  #jesus-developer h2{
+    font-size: 2.4em;
+  }
+
+  .ipad-img{
+    width: 17%;
+  }
 }
+
+@media screen and (min-width:992px){
+  .jumbotron h1{
+    font-size: 79px;
+  }
+
+  #jesus-developer h2{
+    font-size: 2.7em;
+  }
+
+  .ipad-img{
+    width: 15%;
+  }
+}
+
+@media screen and (min-width:1200px){}
+
+
 
 

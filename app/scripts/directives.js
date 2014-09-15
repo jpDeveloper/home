@@ -52,16 +52,6 @@ app.directive('elements', function($timeout){
 	};
 });
 
-app.directive('wrapOwlcarousel', function () {
-    return {
-        restrict: 'E',
-        link: function (scope, element, attrs) {
-            var options = scope.$eval($(element).attr('data-options'));
-            $(element).owlCarousel(options);
-        }
-    };
-});
-
 app.directive('latestWorks', function(){
 	return{
 		restrict: 'A',
