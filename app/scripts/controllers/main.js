@@ -8,6 +8,5 @@ app.controller('MainCtrl', function ($scope, ngDialog, $window) {
     	ngDialog.open({ template: 'views/partials/navigation.html' });
 	};
 
-    // $window.alert('working');
 
 });

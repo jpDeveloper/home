@@ -1,29 +1,5 @@
 'use strict';
 
-app.directive('scrolltotop', function($window){
-	return{
-		restrict: 'A',
-		link: function (scope, element){
-			// $($window).scroll(function () {
-		 //        if ($(this).scrollTop() > 300) {
-		 //            $('.back-top').fadeIn();
-		 //        } else {
-		 //            $('.back-top').fadeOut();
-		 //        }
-		 //    });
-
-		    // // scroll body to 0px on click
-		    // $('.back-top').click(function () {
-		    //     $('body,html').animate({
-		    //         scrollTop: 0
-		    //     }, 1600);
-		    //     return false;
-		    // });
-
-		}
-	}
-});
-
 app.directive('elements', function($timeout){
 	return{
 		restrict: 'A',
