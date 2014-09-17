@@ -28,39 +28,39 @@ app.directive('elements', function($timeout){
 	};
 });
 
-app.directive('latestWorks', function(){
-	return{
-		restrict: 'A',
-		link: function(scope, element){
-			var colours = [
-				'#88bec1','#a7c817','#f1655f', '#f2a057'
+// app.directive('latestWorks', function(){
+// 	return{
+// 		restrict: 'A',
+// 		link: function(scope, element){
+// 			var colours = [
+// 				'#88bec1','#a7c817','#f1655f', '#f2a057'
 
-			];
+// 			];
 
-			var boxColor = element.find('.latest-box');
-			var number = 0;
+// 			var boxColor = element.find('.latest-box');
+// 			var number = 0;
 
-			element.on('mouseover', function(){
-				element.css('cursor', 'pointer');
-			});
+// 			element.on('mouseover', function(){
+// 				element.css('cursor', 'pointer');
+// 			});
 
-			element.on('click', function(){
+// 			element.on('click', function(){
 
-				boxColor.css('background-color', colours[number]);
+// 				boxColor.css('background-color', colours[number]);
 
-				number += 1;
+// 				number += 1;
 
-				if(number > 3){
-						number = 0;
-				}
+// 				if(number > 3){
+// 						number = 0;
+// 				}
 
-				console.log(number);
+// 				console.log(number);
 
-			});
+// 			});
 
-		}
-	}
-});
+// 		}
+// 	}
+// });
 
 app.directive('jesusParlange', function($timeout, $interval){
 	return{

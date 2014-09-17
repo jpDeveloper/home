@@ -162,6 +162,11 @@ a img{
   display: inline-block;
 }
 
+.landscape-row{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+
 #jpBox1{
   margin-bottom: 5%;
 }
@@ -340,11 +345,22 @@ ul.aboutBox {
   color: #fff;
 }
 
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.marginbottomzero{
+  margin-bottom: 0;
+}
+
 /*Footer*/
 
 .footer-box {
   background-color: #333;
   padding: 3%;
+  margin-top: 1%;
+
 }
 .copyright{
   font-family: 'Ubuntu', sans-serif;
@@ -530,6 +546,10 @@ footer p, footer i{
     font-size: 3em;
   }
 
+  #jesus-developer{
+    margin-bottom: 17%;
+  }
+
 }
 
 @media screen and (min-width:768px){
@@ -553,8 +573,16 @@ footer p, footer i{
   }
 
   .ngdialog.ngdialog-theme-default{
-    padding-top: 140px;
+    padding-top: 69px;
 
+  }
+
+  #jesus-developer{
+    margin-bottom: 8%;
+  }
+
+  .win{
+    padding-top: 13%;
   }
 }
 
@@ -574,12 +602,26 @@ footer p, footer i{
   .email-icon-circle{
     padding: 2%;
   }
+
+  #jesus-developer{
+    margin-bottom: 6%;
+  }
+  .win{
+    padding-top: 13%;
+  }
 }
 
 @media screen and (min-width:1200px){
   .ngdialog.ngdialog-theme-default{
     padding-top: 160px;
+  }
 
+  #jesus-developer{
+    margin-bottom: 5%;
+  }
+
+  .win{
+    padding-top: 13%;
   }
 }
 
